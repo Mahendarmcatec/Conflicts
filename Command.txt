@@ -5,7 +5,7 @@ POSIX semaphores and POSIX shared memory will not work
 
 mkdir: cannot create directory '/dev/mqueue': Read-only file system
 
-Creating /dev/mqueue directory failed.
+Creating /dev/mqueue directory failed. 
 POSIX message queues will not work
 
 ln: failed to create symbolic link '/dev/stdin': Read-only file system
