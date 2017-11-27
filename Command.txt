@@ -1,0 +1,567 @@
+mkdir: cannot create directory '/dev/shm': Read-only file system
+
+Creating /dev/shm directory failed.
+POSIX semaphores and POSIX shared memory will not work
+
+mkdir: cannot create directory '/dev/mqueue': Read-only file system
+
+Creating /dev/mqueue directory failed.
+POSIX message queues will not work
+
+ln: failed to create symbolic link '/dev/stdin': Read-only file system
+ln: failed to create symbolic link '/dev/stdout': Read-only file system
+ln: failed to create symbolic link '/dev/stderr': Read-only file system
+ln: failed to create symbolic link '/dev/fd': Read-only file system
+ln: failed to create symbolic link '/etc/mtab': Permission denied
+'C:\windows\system32\drivers\etc\hosts' -> '/etc/hosts'
+/usr/bin/cp: cannot create regular file '/etc/hosts': Permission denied
+'C:\windows\system32\drivers\etc\protocol' -> '/etc/protocols'
+/usr/bin/cp: cannot create regular file '/etc/protocols': Permission denied
+'C:\windows\system32\drivers\etc\services' -> '/etc/services'
+/usr/bin/cp: cannot create regular file '/etc/services': Permission denied
+'C:\windows\system32\drivers\etc\networks' -> '/etc/networks'
+/usr/bin/cp: cannot create regular file '/etc/networks': Permission denied
+rm: cannot remove '/etc/post-install/01-devices.post': Permission denied
+rm: cannot remove '/etc/post-install/03-mtab.post': Permission denied
+rm: cannot remove '/etc/post-install/06-windows-files.post': Permission denied
+rm: cannot remove '/etc/post-install/99-post-install-cleanup.post': Permission d                                                                                                                enied
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 ~
+$ git config --global user.email "mahendar.se@gmail.com"
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 ~
+$ cd ../..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c
+$ pwd
+/c
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c
+$ cd Mahendran-git/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ git clone https://github.com/Mahendarmcatec/mahendran.git
+Cloning into 'mahendran'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd mahendran-sample/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample
+$ git init
+Initialized empty Git repository in C:/Mahendran-git/mahendran-sample/.git/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (mas                                                                                                                ter)
+$ git checkout develop
+error: pathspec 'develop' did not match any file(s) known to git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (mas                                                                                                                ter)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd..
+bash: cd..: command not found
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd
+.git/         MyChange.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd
+.git/         MyChange.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd
+.git/         MyChange.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd..
+bash: cd..: command not found
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran-sample (dev                                                                                                                elop)
+$ cd c:/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c
+$ cd Mahendran-git/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd mahendran
+mahendran/        mahendran-sample/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd mahendran
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git add demofile.txt
+fatal: pathspec 'demofile.txt' did not match any files
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git add MyChange
+fatal: pathspec 'MyChange' did not match any files
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git add My\ Demo.tx
+fatal: pathspec 'My Demo.tx' did not match any files
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git add  My\ Demo.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git commit -m "my changes"
+[develop 05707ec] my changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 My Demo.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git push -u https://github.com/Mahendarmcatec/mahendran.git
+Username for 'https://github.com': mahendarmcatec
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/mahendran.git
+ * [new branch]      develop -> develop
+Branch develop set up to track remote branch develop from https://github.com/Mah                                                                                                                endarmcatec/mahendran.git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git merge develop
+Already up-to-date.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git push -u https://github.com/Mahendarmcatec/mahendran.git
+Username for 'https://github.com': mahendarmcatec
+Branch develop set up to track remote branch develop from https://github.com/Mah                                                                                                                endarmcatec/mahendran.git.
+Everything up-to-date
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git merge develop
+Updating d657c04..05707ec
+Fast-forward
+ My Demo.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 My Demo.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git push
+Username for 'https://github.com': mahendarmcatec
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/mahendran.git
+   d657c04..05707ec  master -> master
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+pack.packsizelimit=2g
+help.format=html
+http.sslcainfo=/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+pack.packsizelimit=2g
+help.format=html
+http.sslcainfo=/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.email=mahendar.se@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+remote.origin.url=https://github.com/Mahendarmcatec/mahendran.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+branch.develop.remote=https://github.com/Mahendarmcatec/mahendran.git
+branch.develop.merge=refs/heads/develop
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git add Git_HandsonWorkbook_Final.pdf
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ ^C
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git commit -m "my changes"
+[master 54d9fc8] my changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git_HandsonWorkbook_Final.pdf
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git push
+Username for 'https://github.com': mahendarmcatec
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.21 MiB | 216.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/mahendran.git
+   05707ec..54d9fc8  master -> master
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git add index.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git commit
+[develop ec150de] my changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ git push
+Username for 'https://github.com': mahendarmcatec
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 287 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/mahendran.git
+   05707ec..ec150de  develop -> develop
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/mahendran (develop)
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd MyNewRepo/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo
+$ git init
+Initialized empty Git repository in C:/Mahendran-git/MyNewRepo/.git/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo (master)
+$ cd .git
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo/.git (GIT_DIR!)
+$ dir
+config  description  HEAD  hooks  info  objects  refs
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo/.git (GIT_DIR!)
+$ ls -a
+./  ../  config  description  HEAD  hooks/  info/  objects/  refs/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo/.git (GIT_DIR!)
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo (master)
+$ git remote -v
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo (master)
+$ git remote MyNew origin https://github.com/Mahendarmcatec/MyNewRepo.git
+error: Unknown subcommand: MyNew
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo (master)
+$ git remote MyNewRepo origin https://github.com/Mahendarmcatec/MyNewRepo.git
+error: Unknown subcommand: MyNewRepo
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/MyNewRepo (master)
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd Developer1
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ git clone https://github.com/Mahendarmcatec/Conflicts.git
+Cloning into 'Conflicts'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd Developer2
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2
+$ git clone https://github.com/Mahendarmcatec/Conflicts.git
+Cloning into 'Conflicts'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd Developer1
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ cd Conflicts/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add .
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git commit - m "cchaneg"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'cchaneg' did not match any file(s) known to git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push -u https://github.com/Mahendarmcatec/Conflicts.git
+Username for 'https://github.com': mahendarmcatec
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Mahendarmcatec/Conflicts.git/'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git checkout master
+M       README.md
+A       index.txt
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (master)
+$ git checkout develop
+M       README.md
+A       index.txt
+Switched to branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push -u https://github.com/Mahendarmcatec/Conflicts.git
+Username for 'https://github.com': mahendarmcatec
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/Conflicts.git
+ * [new branch]      develop -> develop
+Branch develop set up to track remote branch develop from https://github.com/Mahendarmcatec/Conflicts.git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add .
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git commit - m "cchaneg"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'cchaneg' did not match any file(s) known to git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push -u https://github.com/Mahendarmcatec/Conflicts.git
+Username for 'https://github.com': mahendarmcatec
+Branch develop set up to track remote branch develop from https://github.com/Mahendarmcatec/Conflicts.git.
+Everything up-to-date
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add index
+fatal: pathspec 'index' did not match any files
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add index.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git commit - m "cchaneg"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'cchaneg' did not match any file(s) known to git.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push -u https://github.com/Mahendarmcatec/Conflicts.git
+Username for 'https://github.com': mahendarmcatec
+Branch develop set up to track remote branch develop from https://github.com/Mahendarmcatec/Conflicts.git.
+Everything up-to-date
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git merge develop
+Already up-to-date.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git add .
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git commit -m "dev1 chanegs'
+>
+> "
+[develop 020725d] dev1 chanegs'
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 index.txt
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git push -u origin develop
+Username for 'https://github.com': mahendarmcatec
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 319 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/Conflicts.git
+   218de09..020725d  develop -> develop
+Branch develop set up to track remote branch develop from origin.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ cd..
+bash: cd..: command not found
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd Developer2
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2
+$ cd Conflicts/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (master)
+$ cd checkout -b develop
+bash: cd: checkout: No such file or directory
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (master)
+$ git checkout -b develop
+M       README.md
+Switched to a new branch 'develop'
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ git add .
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ git commit -m "dev2 changes"
+[develop a6d62f4] dev2 changes
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ git push -u origin develop
+Username for 'https://github.com': mahendarmcatec
+To https://github.com/Mahendarmcatec/Conflicts.git
+ ! [rejected]        develop -> develop (fetch first)
+error: failed to push some refs to 'https://github.com/Mahendarmcatec/Conflicts.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ git pull origin develop
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+Unpacking objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+From https://github.com/Mahendarmcatec/Conflicts
+ * branch            develop    -> FETCH_HEAD
+ * [new branch]      develop    -> origin/develop
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop|MERGING)
+$ git add .
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop|MERGING)
+$ git commit -m "developer chanegs the confilicts"
+[develop f60c5f6] developer chanegs the confilicts
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ git push -u origin develop
+Username for 'https://github.com': mahendarmcatec
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 617 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Mahendarmcatec/Conflicts.git
+   020725d..f60c5f6  develop -> develop
+Branch develop set up to track remote branch develop from origin.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2/Conflicts (develop)
+$ cd ..
+c
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer2
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git
+$ cd Developer1
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$
