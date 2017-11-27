@@ -1,0 +1,45 @@
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git diff
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git diff
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git diff
+diff --git a/index.txt b/index.txt
+index 4407df2..3754e1e 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1 +1,3 @@
+-sasdasd
+\ No newline at end of file
++sasdasd
++sfsnkdfsjdkf
++sdfsdf
+\ No newline at end of file
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git stash save "Mystash"
+Saved working directory and index state On develop: Mystash
+HEAD is now at 07b427f commands
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git diff
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git stash list
+stash@{0}: On develop: Mystash
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ cd ..
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1
+$ cd Conflicts/
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+Training_C2a.05.01@CDC2-D-CJ1QXJ2 MINGW64 /c/Mahendran-git/Developer1/Conflicts (master)
+$
